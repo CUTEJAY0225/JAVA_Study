@@ -19,7 +19,7 @@ public class HashtableEx {
 		Iterator<String> keyiterator = keyset.iterator(); // 반복으로 키 생성해서 대입
 		while(keyiterator.hasNext()) { // 정렬
 			String k = keyiterator.next(); // 다음 요소 읽어옴
-			String v = ht.get(k); // v(키)로 k(값) 가져옴
+			String v = ht.get(k); // k(키)로 v(값) 가져옴
 			System.out.println("키: "+k+"---> 값: "+v);
 			
 		}
